@@ -10,18 +10,21 @@ entity:
       valid_from: 2026-08-27T17:23:18.325Z
   category: hosting-infra
 profile:
-  description: CIQ provides enterprise software infrastructure for AI and HPC workloads, including Fuzzball orchestration and commercial Rocky Linux products.
+  summary: CIQ is the founding commercial sponsor of Rocky Linux and builds enterprise Linux and AI infrastructure software, including RLC Pro and Fuzzball.
+  description: CIQ is the founding commercial sponsor of Rocky Linux and makes RLC Pro enterprise Linux, the CIQ Linux Kernel, Warewulf, and the Fuzzball workload orchestration platform.
   links:
     site: https://ciq.com/
 sources:
   - source_id: src_1c12cf3983d44f90cfe0edf15f458d0ebf2e4f2d40d3768a450a823208e5238c
     url: https://ciq.com/solutions/startups
+  - source_id: src_bb5bb4c732978833f2cbbb5107a63ffeaea9915748a897364bcc98ad08faa2b8
+    url: https://ciq.com/
 programs:
   - program_id: prg_01m123yq1j71gpgxnq1x2wppq0
     program_slug: ciq-startup-program
     program_slug_aliases: []
     title: CIQ Startup Program
-    summary: CIQ's application-based program provides six months of access to Fuzzball, RLC Pro AI, and RLC-H, followed by 80% and 50% discount stages through month 24, with engineering support.
+    summary: CIQ's application-based program provides six months of free access to Fuzzball, RLC Pro AI, and RLC-H, followed by 80% and 50% discount stages through month 24, with engineering support.
     source_ids:
       - src_1c12cf3983d44f90cfe0edf15f458d0ebf2e4f2d40d3768a450a823208e5238c
 offers:
@@ -30,7 +33,7 @@ offers:
     offer_slug: startup-software-and-support-discounts
     offer_slug_aliases: []
     title: CIQ startup software and support discounts
-    summary: Eligible startups receive 80% off at CIQ's 12-month stage and 50% off at its 18–24-month stage, plus an initial six months free and engineering support.
+    summary: Eligible startups receive 6 months free on Fuzzball, RLC Pro AI, and RLC-H, then 80% off at the 12-month stage and 50% off at the 18 to 24 month stage, plus CIQ engineering support.
     lifecycle:
       status: active
       effective_from: 2026-08-27T17:23:18.325Z
@@ -53,7 +56,7 @@ offers:
             basis_points: 8000
             kind: exact
         - benefit_id: ben_03
-          description: 50% off at the 18–24-month program stage.
+          description: 50% off at the 18-24 month program stage.
           kind: discount
           percentage:
             basis_points: 5000
@@ -63,7 +66,7 @@ offers:
           kind: other
       consideration:
         kind: variable
-        description: Participants pay the remaining discounted CIQ price during the 80% and 50% stages; the source does not publish the base price or a separate program fee.
+        description: The first 6 months are free; the startup then pays the discounted CIQ price at the 80% off and 50% off stages and moves to standard CIQ pricing when the 24-month program ends.
     eligibility:
       rule:
         kind: any
