@@ -32,8 +32,7 @@ offers:
       effective_from: 2026-08-27T17:51:55.000Z
     economics:
       benefits:
-        - applies_to: Listed annual price of a self-serve annual paid plan; free, monthly, Enterprise, and custom plans and overage charges are excluded
-          benefit_id: ben_01
+        - benefit_id: ben_01
           description: 30% off the listed annual subscription price of an eligible self-serve paid plan for 12 months.
           duration:
             kind: exact
@@ -42,12 +41,9 @@ offers:
           percentage:
             basis_points: 3000
             kind: exact
-        - benefit_id: ben_02
-          description: A private Slack Connect channel with the Context.dev team for integration help and feedback.
-          kind: other
       consideration:
         kind: variable
-        description: The discount applies to a self-serve annual paid plan started within 90 days of approval; after 12 months the subscription renews at the standard annual price.
+        description: The startup receives 30% off its annual paid plan for 12 months.
     eligibility:
       rule:
         kind: all
